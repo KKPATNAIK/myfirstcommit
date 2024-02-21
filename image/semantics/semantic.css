@@ -1,0 +1,81 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+
+
+
+*{
+
+
+margin: 10px;
+padding-top: 10px;
+
+}
+html{
+    margin: 0;
+    padding:0;
+}
+body{
+    font-family: cursive;
+    border: solid;
+}
+.container{
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    padding-bottom: 50vh;
+    background-color: green;
+}
+nav{
+    padding-bottom: 5vh;
+    background-color: rgb(238, 127, 24);
+}
+main{
+    text-align: center;
+   display: flex;
+   background-color: rgb(52, 107, 179);
+   justify-content: center;
+}
+section{
+    background-color:rgb(37, 69, 99);
+       width: 65%;
+       margin: 4%; 
+}
+article{
+    background-color: grey;
+    padding-bottom: 10vh;
+    margin: 10%;
+}
+aside{
+    background-color:rgb(1, 1, 59);
+    width: 35%;
+    margin:4%;
+    color: whitesmoke;
+
+}
+footer{
+    padding-bottom: 5vh;
+    background-color:black;
+    color: white;
+    margin-bottom: 0;
+}
+form{
+    background-color: coral;
+    
+    padding: 10px;
+    width: 50% ;
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: inset  5px 5px 10px black, 5px 5px 10px yellowgreen;}
+
+input[type="text"],
+input[type="password"]{
+        width:80%;
+        padding: 20px;
+        margin-bottom: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        box-shadow: inset 5px 5px 12px red,5px 5px 12px blue;
+}

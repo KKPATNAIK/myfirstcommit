@@ -1,0 +1,44 @@
+*{
+    margin: 10px;
+    padding-top: 10px;
+}
+
+body{
+    background-color: antiquewhite;
+
+}
+form{
+    background-color: coral;
+    
+    padding: 10px;
+    width: 50% ;
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: inset  5px 5px 10px black, 5px 5px 10px yellowgreen;}
+
+input[type="text"],
+input[type="password"]{
+        width:80%;
+        padding: 20px;
+        margin-bottom: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        box-shadow: inset 5px 5px 12px red,5px 5px 12px blue;
+}
+input[TYPE="SUBMIT"]:hover{
+    background-color: rgb(204, 221, 55);
+
+}
+input[type="submit"]{
+    padding: 15px;
+    margin-right: 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: medium;
+    box-shadow: inset 5px 5px 12px #85fe7a, 5px 5px 12px rgba(173,245,49,0.893);
+
+
+
+
+}
