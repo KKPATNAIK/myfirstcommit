@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Welcome to the Toy Store!</h1>
+    <div id="toyContainer">
+    <div class="toy" id="specialToy">
+    <h2>Special Toy</h2>
+    <p>This is a special toy with ID "specialToy"</p>
+</div>
+<div class ="toy">
+    <h2>Red Car</h2>
+    <p>This is a red car.</p>
+
+</div>
+<div class="toy">
+    <h2>Blue Ball</h2>
+    <p>This is a blue ball.</p>
+</div>
+</div>
+
+<button onclick="changeSpecialToyText()">Change Special Toy Text</button>
+<script>
+    function changeSpecialToyText() {
+        var specialOne = document.getElementById('specialToy');
+        var paragraph = specialOne.getElementsByTagName('p')[0];
+        paragraph.textContent ='This toy is now even more special!';
+    }
+</script>
+</body>
+
+
+</html>

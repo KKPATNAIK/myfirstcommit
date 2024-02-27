@@ -1,0 +1,30 @@
+html{
+    margin:0;
+}
+span{
+    display:block;
+}
+
+ .Color{
+    width: 100px;
+    height: 100px;
+    border: solid black 2px;
+    display:inline-block;
+
+}
+ 
+ #blue{
+    background: rgb(17, 36, 244);
+}
+
+#red{
+    background: rgb(236,12,12);
+
+}
+#grey{
+    background: grey;
+
+} 
+#yellow{
+    background: yellow;
+}
