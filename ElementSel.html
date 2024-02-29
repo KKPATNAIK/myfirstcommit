@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selector Examples</title>
+    <style>
+        .highlight{
+            background-color: rgb(255, 255, 118);
+        }
+        #main{
+            color:rgb(0, 181, 252);
+
+        }
+    </style>
+</head>
+<body>
+<h1 id="main">Main Heading</h1>
+<p class="highlight">Highlighted Paragraph 1</p>
+<p>Normal Photgraphy</p>
+<p class="highlight">Another Highlighted Paragraph 2</p>
+<script>
+    const mHead=document.getElementById('main');
+    mHead.style.color ='red';
+
+    const hPara = document.getElementsByClassName('highlight');
+    hPara[0].style.backgroundColor ='lightblue';
+    hPara[1].style.backgroundColor='lightblue';
+
+    const aPara =document.getElementsByTagName('p');
+    aPara[0].style.border ='1px solid black';
+    aPara[1].style.border ='1px solid black';
+    aPara[2].style.border ='1px solid black';
+
+
+    const fHPara = document.querySelector('#main');
+    fHPara.style.fontSize = '50px';
+
+
+
+
+    const ahPara = document.querySelectorAll('.highlight')
+    ahPara.style.color = 'pink';
+
+
+    </script>
+
+    
+</body>
+</html>
