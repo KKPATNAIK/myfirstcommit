@@ -1,0 +1,20 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "xprotocol",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 33060,
+            "driver": "MySQL",
+            "name": "ConnectingNow",
+            "database": "cgtc",
+            "username": "root",
+            "password": "cgtc",
+            "connectionTimeout": 30
+        }
+    ],
+    "liveServer.settings.port": 5501
+}

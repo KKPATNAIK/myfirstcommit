@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODOLIST</title>
+    <link rel="stylesheet" href="todo.css">
+</head>
+<body>
+    <header>
+        <h1>Task List 2024</h1>
+        <form id="new-task-form">
+            <input type="text" name="new-task-input" id="new-task-input" placeholder="NAME OF THE EP?"/>
+            <input type="text" name="new-task-input1" id="new-task-input1" placeholder="RANK?"/>
+            <input type="number" name="new-task-input2" id="new-task-input2" placeholder="P.NO?"/>
+        
+            <input type="submit" id="new-task-submit" value="Add task"/>
+        </form>
+    </header>
+    <main>
+        <section class="task-list">
+            <h2>Tasks</h2>
+            <div id="tasks">
+                <!-- Tasks will be added here by Javascript -->
+            </div>
+        </section>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
